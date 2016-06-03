@@ -1,0 +1,73 @@
+#productmainimage {
+	width: 300px;
+	height: 300px;
+	margin: 18px 0;
+	float: left;
+	padding: 1px;
+	background-color: #ccc;
+}
+.alternateimage1, .alternateimage2, .alternateimage3, .alternateimage4 {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 10px;
+	padding: 1px;
+	background-color: #ccc;
+	overflow: hidden;
+	cursor:pointer;
+}
+.alternateimage1:hover, .alternateimage2:hover, .alternateimage3:hover, .alternateimage4:hover, .stickerchooser:hover, .gradechooser:hover  {
+	background-color: #FCBB0D;
+}
+#productdetails {
+	float: right;
+	width: 230px;
+	height: 300px;
+	margin: 20px 0;
+}
+.stickerchooser {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #ccc;
+	padding: 1px;
+	cursor:pointer;
+	margin: 5px 10px 5px 0;
+}
+.stickerchooser:hover {
+	background: #FCBB0D;
+}
+.gradechooser {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background: #ccc;
+	padding: 1px;
+	cursor:pointer;
+	margin: 5px 10px 5px 0;
+}
+.backbutton {
+	color: black;
+	text-decoration: underline;
+}
+#chooserheader {
+	text-align: center;
+	padding: 0;
+}
+#dockedcontact {
+	width: 280px;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+#dockedcontact a {
+	text-decoration: none;
+	color: black;
+}
+#detailstop {
+	padding-bottom: 20px;
+}
+#detailbottom {
+	padding-bottom: 20px;
+}

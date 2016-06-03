@@ -1,0 +1,43 @@
+form {
+	font-size: 16px;
+}
+.hide {
+	display: none !important;
+}
+.req {
+	color: red;
+	font-weight: bold;
+}
+table {
+	border: 0px solid black;
+	margin-top: 10px;
+	padding: 5px;
+}
+td {
+	border: 0px dotted black;
+	padding: 5px;
+	vertical-align: middle;
+}
+.desc {
+	text-align: right;
+	padding-right: 20px;
+}
+input, #Field6, #Field7, #Field8 {
+	vertical-align: middle;
+}
+#saveForm {
+	background-color:#FCBB0D;
+	font-size: 19px;
+	line-height: 40px;
+	padding: 0 35px;
+	height: 40px;
+	border: none;
+}
+.consub {
+	text-align: right;
+
+}
+#Field106 {
+	width: 100%;
+}
+

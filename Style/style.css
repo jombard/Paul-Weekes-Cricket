@@ -1,0 +1,345 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+}
+img {
+	border: none;
+}
+h1 {
+	font-size: 30px;
+	padding: 5px 0;
+	line-height: 35px;
+	color: #FCBB0D;
+}
+h2 {
+	font-size: 30px;
+	padding: 10px 0;
+	line-height: 45px;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+h3 {
+	font-size: 25px;
+	color: #FCBB0D;
+	padding: 5px 0;
+}
+h4 {
+	font-size: 16px;
+}
+p { 
+	font-size: 16px;
+	line-height: 23px;
+	padding: 5px 0;
+}
+#allcontent {
+	width: 850px;
+	margin: 0 auto;
+	padding: 0 10px 10px;
+}
+#headband {
+	background-color: #000;
+}
+#header {
+	width: 1150px;
+	min-width: 850px;
+	margin: 0 auto;
+	height: 150px;
+}
+#header img.logo {
+	float: left;
+}
+#header h1 {
+	font-size: 4em;
+	line-height: 30px;
+	padding: 20px 0;
+	position: relative;
+	top: 73px;
+}
+#sociallinks {
+	position: absolute;
+	top: 20px;
+	right: 5%;
+	text-align: right;
+}
+#sociallinks img{
+	margin :5px;
+}
+#sociallinks p {
+	color: #FCBB0D;
+	font-weight: bold;
+	text-align: right;
+	line-height: 15px;
+	position: relative;
+	top: 25px;
+}
+.fbookhover {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background: url(../images/f_logo.jpg) ;
+	margin-right: 10px;
+}
+.fbookhover:hover {
+	background: url(../images/f_logohover.png);
+}
+.tweethover {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	background: url(../images/twitter.png) ;
+}
+.tweethover:hover {
+	background: url(../images/twitterhover.png);
+}
+nav {
+	margin: 0 auto;
+	width: 850px;
+	min-height: 40px;
+	background: #FCBB0D;
+}
+#menu {
+	width: 100%;
+	background: #FCBB0D;
+}
+#menu ul {
+	list-style-type:none;	
+}
+#menu li {
+	display: inline;
+	position: relative;
+	float: left;
+}
+#menu li a {
+	display: block;
+	padding: 0 32px;
+	height: 30px;
+	line-height: 30px;
+	margin: 4px 0;
+	color: #734D07;
+	text-decoration: none;
+	outline: none;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;	
+}
+#menu li a:hover {color:#BF800B;}
+#menu li a:active {}
+#menu li a.current {color:black;}
+/*#menu li a.current {background-color:#BF800B;color:#FCBB0D;height: 40px;margin: 0;line-height:40px;}*/
+#mainbody {
+	line-height: 1.7em;
+}
+#mainbody:after {
+	clear: both;
+	display: table;
+}
+#banner {
+	width: 100%;
+	height: 300px;
+	clear: both;
+	margin-bottom:10px;
+	padding-bottom: 0px;
+}
+#leftcontent {
+	float: left;
+	width: 550px;
+	padding: 20px 0;
+	margin-bottom: 50px;
+	min-height: 500px;
+}
+#leftcontent img.frontimage{
+	float:left;
+	padding: 20px 20px 20px 0;
+}
+#rightcontent {
+	float: right;
+	width: 260px;
+	padding: 20px 0 20px 20px;
+}
+#twittertimeline {
+	width: 250px;
+	height: 350px;
+	float: right;
+	color: #ccc;
+}
+#facebookarea {
+	width: 250px;
+	float: right;
+}
+#footerband {
+	background-color: #1d1d1d;
+	clear: both;
+	height: 150px;
+}
+#footer {
+	
+	clear: both;
+	width: 850px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0 0 0;
+}
+#footer a {
+	color: #FCBB0D;
+}
+#footer ul {
+	list-style-type: none;
+	padding: 5px;
+}
+#footer li {
+	display: inline;
+	position: relative;
+	padding: 5px;
+}
+#footer li a {
+	padding: 5px;
+}
+a.more { 
+	display: inline-block; 
+	width: 80px; 
+	height: 28px; 
+	line-height: 28px; 
+	text-align: center; 
+	font-size: 10px; 
+	font-weight: bold; 
+	color: #333; 
+	background: #FCBB0D; 
+}
+a.more:hover { 
+	background: #333; 
+	text-decoration: none; 
+	color: #FCBB0D;
+}
+.productdisplay {
+	background: #ccc;
+	margin: 10px 10px 30px 10px;
+	float: left;
+	padding: 1px;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	color:black;
+}
+.productdisplay:hover {
+	background: #FCBB0D;
+	color: #FCBB0D;
+}
+.productdisplay:active {color:#734D07;}
+.nextsection {
+	clear: both;
+	padding: 20px 0;
+}
+
+.highlight {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FCBB0D;
+}
+#floatingcontact {
+	position: fixed;
+	top: 417px;
+	margin-left: 160px;
+	width: 280px;
+	left: 50%;
+	text-align: center;
+}
+#floatingcontact a {
+	text-decoration: none;
+	color: black;
+}
+#quotes {
+	padding-top: 5px;
+	margin: 50px 0;
+}
+#quotes q {
+	font-style: italic;
+	font-size: 14px;
+	padding: 5px;
+	margin-top: 10px;
+	display: block;
+}
+#quotes h4 {
+	font-size: 14px;
+}
+table {
+	width: 100%;
+	border-spacing: 0px;
+}
+.thead {
+	background: #FCBB0D;
+	font-weight: bold;
+}
+td {
+	padding: 0px;
+}
+#imggallery {
+	float: right;
+	margin: 20px 0;
+}
+.contactdetails:hover  {
+	background-color: #FCBB0D;
+}
+.headertab {
+
+}
+.contactremindermain {
+	font-size: 30px;
+	padding: 5px 0;
+	margin: 10px auto;
+	line-height: 35px;
+	color: #FCBB0D;
+	background-color: #1d1d1d;
+	display: block;
+	width: 250px;
+}
+.contactreminderdetail {
+	font-size: 20px;
+	font-weight: bold;
+}
+.contactreminderdetail:hover {
+	background-color: #FCBB0D;
+}
+.wlist {
+	list-style: none;
+}
+.wlist li {
+	background-image: url(../images/wicon.png);
+	background-repeat: no-repeat;
+	background-position: 0px 7px;
+	padding: 5px 0 5px 25px;
+	font-size: 16px;
+}
+.coachpic {
+	float: right;
+	margin: 20px 0;
+}
+.coachtable td{
+	padding: 10px;
+	vertical-align: top;
+}
+.imageattribute {
+	font-style:italic;
+	font-size: 11px;
+}
+#contactsocial {
+	padding: 10px 0;
+}
+.dlbutton {
+	background:#fcbb0d;
+	padding:10px;
+	font-weight:bold;
+	font-size:18px;
+}	
